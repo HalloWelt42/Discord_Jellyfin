@@ -157,7 +157,7 @@ while True:
     except Exception as e:
         print(f"❌ Unerwarteter Fehler: {e}")
 
-    time.sleep(3)  # Alle 5 Sekunden prüfen
+    time.sleep(3)  # Alle 3 Sekunden prüfen
 
 # Aufräumen
 try:
