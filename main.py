@@ -153,12 +153,11 @@ while True:
 
     except KeyboardInterrupt:
         print("\n👋 Beende Programm...")
-        print("\n👋 Beende Programm...")
         break
     except Exception as e:
         print(f"❌ Unerwarteter Fehler: {e}")
 
-    time.sleep(5)  # Alle 5 Sekunden prüfen
+    time.sleep(3)  # Alle 5 Sekunden prüfen
 
 # Aufräumen
 try:
